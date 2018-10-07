@@ -216,12 +216,11 @@ Conclusion
 ==========
 
 We trained 5 classes of models – logistic regression and naive Bayes
-baselines, a simple CBOW architecture, a replication of Kim’s CNN
-architecture, and a modified CNN that makes a handful of small tweaks
+baselines, a simple CBOW architecture, a replication of the CNN architecture
+from (Kim, 2014), and a modified CNN that makes a handful of small tweaks
 that improve performance on the SST-2 data. Though our results are
 competitive with reported scores in the literature, we were unable to
-match the performance reported by Kim (88.1%), using the architecture
-that we followed for the CNN.
+match the 88.1% performance reported by (Kim, 2014).
 
 References
 ==========
