@@ -194,13 +194,17 @@ validation set – the best performance came from just the two changes
 described in section 3.5. Below, we report the classification accuracies
 achieved by each of the models outlaid in Section 3 on the test set:
 
-*Model* | *Epoch 1* |
+<center>
+    
+*Model* | *Accuracy* |
 :---: | :---: |
 Logisitic Regression | 78.03
 Unigram Naive Bayes | 82.48
 CBoW | 83.75
 CNN | 85.34
 Modified CNN | 85.94
+
+</center>
 
 Though the modified CNN was the best-performing model, it only beats the
 vanilla CNN by about half a percent, even though the multi-channel
